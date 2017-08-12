@@ -4,8 +4,9 @@ using UnrealBuildTool;
 
 public class MakeSocket : ModuleRules
 {
-	public MakeSocket(TargetInfo Target)
-	{		
+	public MakeSocket(ReadOnlyTargetRules Target) : base(Target)
+	{
+		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] { "NetPeer" });
