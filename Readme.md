@@ -14,11 +14,12 @@ The NetPeer plugin provide a tcp client function to connect to tcp server. You c
 
 ## Directories 
 
-* Client - Contains the ue4 test project and the NetPeer plugin.
-  * Plugins - Contains the `NetPeer` plugin.
+* Client - Contains the ue4 test project.
 * Server - Contains a tcp server project for testing. 
 
 ## Example
+
+> 'master' branch for UE4.16, 'branch_4.17' branch for UE4.17 
 
 1. Execute the `Server/CPlusPlusTcpServer/SimpleTcpServer/Release/SimpleTcpServer.exe`
 
